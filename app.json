@@ -17,7 +17,7 @@
       "inline"
     ],
     "website": "https://github.com/Devil-Botz/Elsa",
-    "repository": "https://github.com/Devil-Botz/Elsa",
+    "repository": "https://github.com/arindam69x/Mayank-movie-bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
