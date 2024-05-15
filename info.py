@@ -41,10 +41,12 @@ class evamaria(Client):
         )
 
 # Bot information
+# Provide default values if environment variables are not set
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID', '19863702'])
-API_HASH = environ['API_HASH', '6d48cb362a97a43cfc944fd5c0f917f9']
-BOT_TOKEN = environ['BOT_TOKEN', '6607973704:AAE4LOr5lz1jK6mpOy3G8Ovn_IRzK5J8Umg']
+API_ID = int(environ.get('API_ID', '19863702'))
+API_HASH = environ.get('API_HASH', '6d48cb362a97a43cfc944fd5c0f917f9')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6607973704:AAE4LOr5lz1jK6mpOy3G8Ovn_IRzK5J8Umg')
+
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
