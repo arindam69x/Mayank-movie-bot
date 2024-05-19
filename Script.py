@@ -11,7 +11,6 @@ class script(object):
 ❐ Creator  :  <a href=https://t.me/arindam69x>Arindam</a>
 ❐ Movie Group : <a href=https://t.me/Sprizen_movie_Group>Sprizen movie Group</a>
 ❐ Update Channel: <a href=https://t.me/Sprizen_movie_updates>Sprizen movie updates</b>"""
-✯ 𝙱𝙾
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- 𝙴𝙻𝚂𝙰 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
