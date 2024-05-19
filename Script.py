@@ -7,10 +7,10 @@ class script(object):
 
     # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
-    ABOUT_TXT = ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+    ABOUT_TXT = ABOUT_TXT = """<b>❐ Yo Vro I'm: {}
 ❐ Creator  :  <a href=https://t.me/arindam69x>Arindam</a>
 ❐ Movie Group : <a href=https://t.me/Sprizen_movie_Group>Sprizen movie Group</a>
-❐ Update Channel: <a href=https://t.me/Sprizen_movie_updates>Sprizen movie updates</b>"""
+❐ Update Channel: <a href=https://t.me/Sprizen_movie_updates>Sprizen movie updates</a></b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- 𝙴𝙻𝚂𝙰 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
