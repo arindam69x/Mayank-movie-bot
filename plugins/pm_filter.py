@@ -123,7 +123,7 @@ async def pm_text(bot, message):
     await message.reply_text("<b>Your message has been sent to my moderators !</b>",
                              reply_markup=InlineKeyboardMarkup(
                                  [[
-                                     InlineKeyboardButton('📍 Mᴏᴠɪᴇ ɪs ʜᴇʀᴇ 📍', url=(MOVIE_GROUP))
+                                     InlineKeyboardButton('⚡ Search Your Movie Here⚡', url=(MOVIE_GROUP))
                                  ]]
                              )
                              )
@@ -909,15 +909,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚡Add Me to Your Group⚡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/Elsaupdates')
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('⚡Owner', url='https://t.me/Sukunaaa_007')
         ], [
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🥲Help', callback_data='help'),
+            InlineKeyboardButton('♥️About', callback_data='about')
         ], [
-            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='surprise')
+            InlineKeyboardButton('Back to start', callback_data='surprise')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1068,8 +1068,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/Devil-Botz/Elsa'),
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('OWner', url='https://t.me/Sukunaaa_007'),
+            InlineKeyboardButton('Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
